@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this archive."
+title: >-
+  Code and data for "Integrating Ocean Data with Climate Finance to Strengthen
+  Coastal Resilience and Blue Economy Development"
+version: 1.0.0
+date-released: 2026-11-21
+license:
+  - MIT
+  - CC-BY-4.0
+type: software
+authors:
+  - family-names: Gandhi
+    given-names: Shaily
+    affiliation: "Interdisciplinary Transformation University Austria; Committee on Data of the International Science Council (CODATA)"
+    # orcid: "https://orcid.org/0000-0002-8893-2130"
+  - family-names: Fakhruddin
+    given-names: Bapon Shm
+    affiliation: "Green Climate Fund; Committee on Data of the International Science Council (CODATA)"
+    # orcid: "https://orcid.org/0000-0001-6904-6013"
+  - family-names: Diggs
+    given-names: Steve
+    affiliation: "University of California Office of the President; Committee on Data of the International Science Council (CODATA)"
+    # orcid: "https://orcid.org/0000-0003-3814-6104"
+doi: "10.5281/zenodo.24425036"
+repository-code: "https://github.com/ShailyGandhi/ocean-data-climate-finance"
+keywords:
+  - ocean data
+  - climate finance
+  - adaptation finance
+  - sea-level rise
+  - Small Island Developing States
+  - blue economy
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Integrating Ocean Data with Climate Finance to Strengthen Coastal Resilience and Blue Economy Development"
+  journal: "Sustainability"
+  year: 2026
+  authors:
+    - family-names: Gandhi
+      given-names: Shaily
+    - family-names: Fakhruddin
+      given-names: Bapon Shm
+    - family-names: Diggs
+      given-names: Steve

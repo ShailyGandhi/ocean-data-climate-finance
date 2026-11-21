@@ -1,0 +1,36 @@
+﻿panel,series,variable,period,trend,se_ar1,units,n,lag1_autocorr,n_eff
+a,Global ocean,absolute sea level (linear),1993-2024,3.1026,0.25254,mm/yr,32,0.74903,4.5917
+a,Global ocean,absolute sea level (quadratic acceleration),1993-2024,0.076676,,mm/yr^2,32,,
+a,Pacific Ocean,absolute sea level (linear),1993-2024,2.9206,0.29653,mm/yr,32,0.67868,6.1251
+a,Pacific Ocean,absolute sea level (quadratic acceleration),1993-2024,0.087198,,mm/yr^2,32,,
+a,Atlantic Ocean,absolute sea level (linear),1993-2024,3.1611,0.35225,mm/yr,32,0.76997,4.1587
+a,Atlantic Ocean,absolute sea level (quadratic acceleration),1993-2024,0.094316,,mm/yr^2,32,,
+a,Indian Ocean,absolute sea level (linear),1993-2024,3.3479,0.12935,mm/yr,32,0.33459,15.955
+a,Indian Ocean,absolute sea level (quadratic acceleration),1993-2024,0.036941,,mm/yr^2,32,,
+b,"Palmeira, Cabo Verde (PSMSL 1914)",relative sea level (linear),2002-2023,3.4685,0.80144,mm/yr,20,0.17933,13.918
+b,"Gibara, Cuba (PSMSL 563)",relative sea level (linear),1993-2024,3.6339,0.99083,mm/yr,31,0.25361,18.457
+b,"Malé, Maldives (PSMSL 1753)",relative sea level (linear),1993-2024,3.9889,0.67103,mm/yr,30,0.3334,14.998
+b,"Port Louis, Mauritius (PSMSL 1673)",relative sea level (linear),1993-2022,4.687,0.97939,mm/yr,30,0.28137,16.825
+b,"Pointe La Rue, Seychelles (PSMSL 1846)",relative sea level (linear),1993-2024,5.8221,0.62159,mm/yr,29,-0.06389,29
+b,"Lautoka, Fiji (PSMSL 1805)",relative sea level (linear),1993-2024,4.0548,0.95211,mm/yr,32,0.24486,19.411
+b,"Betio, Kiribati (PSMSL 1804)",relative sea level (linear),1995-2024,4.0545,1.1431,mm/yr,29,0.014455,28.174
+b,"Kwajalein, Marshall Islands (PSMSL 513)",relative sea level (linear),1993-2024,3.3297,0.99692,mm/yr,30,0.13722,22.76
+b,"Yap, Micronesia (PSMSL 1251)",relative sea level (linear),1993-2024,5.6639,2.9013,mm/yr,25,0.27932,14.083
+b,"Nauru, Nauru (PSMSL 1844)",relative sea level (linear),1996-2022,6.0686,1.4848,mm/yr,23,-0.20641,23
+b,"Malakal, Palau (PSMSL 1252)",relative sea level (linear),1993-2024,4.2392,2.3629,mm/yr,31,0.27963,17.451
+b,"Lombrum, Papua New Guinea (PSMSL 1860)",relative sea level (linear),1997-2023,6.0604,1.5809,mm/yr,23,0.13094,17.674
+b,"Apia, Samoa (PSMSL 1840)",relative sea level (linear),1994-2024,9.9235,1.1188,mm/yr,29,0.032602,27.169
+b,"Honiara, Solomon Islands (PSMSL 1861)",relative sea level (linear),1995-2023,4.5838,1.6529,mm/yr,26,0.0083647,25.569
+b,"Nuku'alofa, Tonga (PSMSL 1842)",relative sea level (linear),1993-2024,7.3028,1.1218,mm/yr,31,0.39131,13.562
+b,"Funafuti, Tuvalu (PSMSL 1839)",relative sea level (linear),1994-2022,4.6466,1.3743,mm/yr,27,0.14488,20.166
+b,"Port Vila, Vanuatu (PSMSL 1841)",relative sea level (linear),1994-2024,1.506,1.8377,mm/yr,31,0.52918,9.5447
+b,"Tanjong Pagar, Singapore (PSMSL 1746)",relative sea level (linear),1993-2024,3.983,0.87686,mm/yr,31,0.42254,12.584
+b-sens,"Gan II, Maldives (PSMSL 1707)",relative sea level (linear),1993-2024,3.5271,0.47635,mm/yr,32,0.15603,23.362
+c,Global ocean,"OHC 0-2000 m (linear, non-overlapping pentads)",1995-2024,9.0064,0.36718,ZJ/yr,6,,
+c,Pacific Ocean,"OHC 0-2000 m (linear, non-overlapping pentads)",1995-2024,3.0427,0.36763,ZJ/yr,6,,
+c,Atlantic Ocean,"OHC 0-2000 m (linear, non-overlapping pentads)",1995-2024,3.6807,0.24795,ZJ/yr,6,,
+c,Indian Ocean,"OHC 0-2000 m (linear, non-overlapping pentads)",1995-2024,2.2751,0.25887,ZJ/yr,6,,
+d,HOT Station ALOHA,pHcalc_insitu,1993-2024,-0.0019817,0.00018385,pH units/yr,304,0.6152,72.424
+d-sens,"HOT Station ALOHA, excluding cruises with substituted inputs",pHcalc_insitu,1993-2024,-0.001967,0.00018705,pH units/yr,299,0.61524,71.224
+d,HOT Station ALOHA,aragsatcalc_insitu,1993-2024,-0.008651,0.0012584,Omega_ar units/yr,304,0.62976,69.06
+d-sens,"HOT Station ALOHA, excluding cruises with substituted inputs",aragsatcalc_insitu,1993-2024,-0.008815,0.0012976,Omega_ar units/yr,299,0.63866,65.933

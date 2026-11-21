@@ -1,0 +1,4 @@
+file,url,retrieved_utc,bytes,sha256,note
+wb_AG.LND.EL5M.ZS_18sids.json,https://api.worldbank.org/v2/country/CPV;CUB;MDV;MUS;SYC;FJI;KIR;MHL;FSM;NRU;PLW;PNG;WSM;SLB;TON;TUV;VUT;SGP/indicator/AG.LND.EL5M.ZS?format=json&per_page=5000&date=1990:2025,2026-11-19T17:52:03Z,160218,d55d19bacdd16da135f4494254171ed0773815fb229949ff4609f28cee37a3fd,
+wb_EN.POP.EL5M.ZS_18sids.json,https://api.worldbank.org/v2/country/CPV;CUB;MDV;MUS;SYC;FJI;KIR;MHL;FSM;NRU;PLW;PNG;WSM;SLB;TON;TUV;VUT;SGP/indicator/EN.POP.EL5M.ZS?format=json&per_page=5000&date=1990:2025,2026-11-19T17:52:01Z,171883,a152ec4458ffb3c5327ba5725f4f85961289afa049fb08e8acf21235bcce9daa,
+wb_SP.POP.TOTL_18sids.json,https://api.worldbank.org/v2/country/CPV;CUB;MDV;MUS;SYC;FJI;KIR;MHL;FSM;NRU;PLW;PNG;WSM;SLB;TON;TUV;VUT;SGP/indicator/SP.POP.TOTL?format=json&per_page=5000&date=1990:2025,2026-11-19T17:52:05Z,127143,0c2d6f429552eb10822000c74f54bb5c8b7f156fc285c37bfb9418c06e5a7b66,

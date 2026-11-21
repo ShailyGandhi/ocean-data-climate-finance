@@ -1,0 +1,33 @@
+{
+  "countries": 18,
+  "H_full_period_point_estimate": 17,
+  "H_matched_period_point_estimate": 17,
+  "H_significant_95": 4,
+  "H_changes_matched_vs_full": [],
+  "median_E_pct": 17.0268701214098,
+  "median_F_usd": 10906.617334687691,
+  "missing_flags": {
+    "flag_H": [],
+    "flag_E": [],
+    "flag_F": [
+      "SGP"
+    ]
+  },
+  "gan_ii": {
+    "station": "Gan II (PSMSL 1707)",
+    "rsl_period": "1993-2024",
+    "valid_years": 32,
+    "rsl_trend_mm_yr": 3.5271260997067464,
+    "rsl_trend_se": 0.4763533084027983,
+    "global_trend_same_years_mm_yr": 3.1025971407624646,
+    "flag_H": "True",
+    "flag_H_significant": "False"
+  },
+  "finance_listed_years_sensitivity": {
+    "countries_with_trailing_gap": [
+      "SYC"
+    ],
+    "flag_F_changes": [],
+    "count_changes": []
+  }
+}

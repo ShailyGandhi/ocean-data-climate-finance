@@ -1,0 +1,97 @@
+﻿psmsl_id,station,country,iso3,region,lat,lon,n_valid_1993_2024,n_valid_baseline,first_valid_year,last_valid_year,excluded_reason,qualifies,selected,selection_note
+1928,SETTLEMENT POINT A,Bahamas,BHS,Atlantic/Caribbean,26.683333,-78.983333,12,8,2005.0,2018.0,,False,False,
+1646,SETTLEMENT POINT,Bahamas,BHS,Atlantic/Caribbean,26.71,-78.996667,5,3,1993.0,2000.0,,False,False,
+1914,PALMEIRA,Cabo Verde,CPV,Atlantic/Caribbean,16.75,-22.983333,20,12,2002.0,2023.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1769,PORTO GRANDE (ST. VINCENT) 2,Cabo Verde,CPV,Atlantic/Caribbean,16.883333,-25.0,2,0,1993.0,1994.0,,False,False,
+563,GIBARA,Cuba,CUB,Atlantic/Caribbean,21.108333,-76.125,31,20,1993.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1910,CABO CRUZ,Cuba,CUB,Atlantic/Caribbean,19.833333,-77.733333,23,16,1993.0,2023.0,,True,False,
+1297,CABO DE SAN ANTONIO,Cuba,CUB,Atlantic/Caribbean,21.9,-84.9,20,11,1993.0,2024.0,,True,False,
+1162,SIBONEY,Cuba,CUB,Atlantic/Caribbean,23.1,-82.466667,19,11,1993.0,2022.0,,False,False,
+1909,ISABELA DE SAGUA,Cuba,CUB,Atlantic/Caribbean,22.933333,-80.016667,16,11,2000.0,2024.0,,False,False,
+2288,NUEVITAS PUNTA PRACTICO,Cuba,CUB,Atlantic/Caribbean,21.591333,-77.1095,14,9,1995.0,2021.0,,False,False,
+2289,CAYO LOCO,Cuba,CUB,Atlantic/Caribbean,22.1505,-80.4545,10,3,2012.0,2022.0,,False,False,
+2021,CASILDA II,Cuba,CUB,Atlantic/Caribbean,21.7533,-79.9917,8,5,1993.0,2015.0,,False,False,
+2290,PUERTO PADRE,Cuba,CUB,Atlantic/Caribbean,21.201667,-76.6,8,3,2002.0,2020.0,,False,False,
+2286,MARIEL BOCA,Cuba,CUB,Atlantic/Caribbean,23.020833,-82.755833,7,2,2012.0,2024.0,,False,False,
+2339,NUEVITAS BUFADERO,Cuba,CUB,Atlantic/Caribbean,21.56,-77.236667,6,0,2016.0,2022.0,,False,False,
+1934,MANZANILLO,Cuba,CUB,Atlantic/Caribbean,20.333333,-77.15,5,4,2005.0,2016.0,,False,False,
+2287,SANTIAGO DE CUBA,Cuba,CUB,Atlantic/Caribbean,20.0205,-75.836667,3,1,2013.0,2018.0,,False,False,
+2363,HABANA,Cuba,CUB,Atlantic/Caribbean,23.134167,-82.338333,3,0,2021.0,2023.0,,False,False,
+592,BARACOA,Cuba,CUB,Atlantic/Caribbean,20.35,-74.5,2,0,2022.0,2024.0,,False,False,
+2351,SANTA CRUZ DEL SUR,Cuba,CUB,Atlantic/Caribbean,20.7,-76.023333,2,0,2018.0,2019.0,,False,False,
+418,GUANTANAMO BAY,Cuba,CUB,Atlantic/Caribbean,19.906667,-75.146667,0,0,,,,False,False,
+2344,ROSEAU,Dominica,DMA,Atlantic/Caribbean,15.313,-61.39,2,2,2012.0,2014.0,,False,False,
+2342,PUNTA CANA B,Dominican Republic,DOM,Atlantic/Caribbean,18.505,-68.375,13,4,2011.0,2024.0,,False,False,
+2343,PUERTO PLATA B,Dominican Republic,DOM,Atlantic/Caribbean,19.798,-70.702,6,4,2011.0,2016.0,,False,False,
+577,PUERTO PLATA,Dominican Republic,DOM,Atlantic/Caribbean,19.816667,-70.7,0,0,,,,False,False,
+745,BARAHONA,Dominican Republic,DOM,Atlantic/Caribbean,18.2,-71.083333,0,0,,,,False,False,
+2272,"PRICKLEY BAY, GRENADA",Grenada,GRD,Atlantic/Caribbean,12.005,-61.765,12,3,2012.0,2024.0,,False,False,
+583,PORT AU PRINCE,Haiti,HTI,Atlantic/Caribbean,18.566667,-72.35,0,0,,,,False,False,
+744,PORT ROYAL,Jamaica,JAM,Atlantic/Caribbean,17.933333,-76.85,0,0,,,,False,False,
+415,PORT OF SPAIN,Trinidad and Tobago,TTO,Atlantic/Caribbean,10.65,-61.516667,0,0,,,,False,False,
+1753,"MALE-B, HULULE",Maldives,MDV,Indian,4.183333,73.533333,30,20,1993.0,2024.0,,True,True,"gauge at the capital, Malé, where most of the population lives; Gan II (PSMSL 1707) has two more valid years and is reported as a sensitivity case"
+1707,GAN II,Maldives,MDV,Indian,-0.683333,73.15,32,20,1993.0,2024.0,,True,False,
+2184,HANIMADHOO B,Maldives,MDV,Indian,6.766667,73.173333,15,10,2003.0,2024.0,,False,False,
+1673,PORT LOUIS II,Mauritius,MUS,Indian,-20.15,57.5,30,20,1993.0,2022.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1672,RODRIGUES IS,Mauritius,MUS,Indian,-19.666667,63.416667,28,16,1993.0,2024.0,,True,False,
+477,PORT LOUIS,Mauritius,MUS,Indian,-20.15,57.5,0,0,,,,False,False,
+930,GRAND PORT,Mauritius,MUS,Indian,-20.366667,57.75,0,0,,,,False,False,
+1846,POINT LA RUE,Seychelles,SYC,Indian,-4.666667,55.533333,29,19,1993.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1805,LAUTOKA,Fiji,FJI,Pacific,-17.604917,177.43825,32,20,1993.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+2356,SUVA-B,Fiji,FJI,Pacific,-18.1325,178.4275,27,17,1998.0,2024.0,,True,False,
+1327,SUVA-A,Fiji,FJI,Pacific,-18.135678,178.422839,4,2,1993.0,1996.0,,False,False,
+1804,BETIO,Kiribati,KIR,Pacific,1.365056,172.933,29,19,1995.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1371,CHRISTMAS ISLAND II,Kiribati,KIR,Pacific,1.983333,-157.483333,26,16,1993.0,2024.0,,True,False,
+1329,KANTON ISLAND-B,Kiribati,KIR,Pacific,-2.816667,-171.716667,21,12,1993.0,2023.0,,True,False,
+2341,PALMYRA ISLAND B,Kiribati,KIR,Pacific,5.883,-162.088,11,2,2013.0,2024.0,Palmyra Island (United States territory; listed under the Kiribati Line Islands code),False,False,
+1739,"TARAWA-C,BETIO",Kiribati,KIR,Pacific,1.366667,172.933333,5,3,1993.0,1997.0,,False,False,
+575,KANTON ISLAND,Kiribati,KIR,Pacific,-2.8,-171.716667,0,0,,,,False,False,
+801,CHRISTMAS ISLAND,Kiribati,KIR,Pacific,1.983333,-157.466667,0,0,,,,False,False,
+1361,FANNING-B,Kiribati,KIR,Pacific,3.9,-159.383333,0,0,,,,False,False,
+1381,"TARAWA-A,BETIO",Kiribati,KIR,Pacific,1.366667,172.933333,0,0,,,,False,False,
+1579,"TARAWA-B,BAIRIKI",Kiribati,KIR,Pacific,1.333333,173.016667,0,0,,,,False,False,
+513,KWAJALEIN,Marshall Islands,MHL,Pacific,8.731667,167.735,30,18,1993.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+595,WAKE ISLAND,Marshall Islands,MHL,Pacific,19.29,166.616667,31,19,1993.0,2024.0,Wake Island (United States territory; listed under the Marshall Islands code),False,False,
+1838,MAJURO-C,Marshall Islands,MHL,Pacific,7.106028,171.372806,29,20,1994.0,2024.0,,True,False,
+1217,MAJURO-B,Marshall Islands,MHL,Pacific,7.1,171.366667,7,5,1993.0,1999.0,,False,False,
+665,ENEWETOK,Marshall Islands,MHL,Pacific,11.366667,162.35,0,0,,,,False,False,
+1251,YAP B,Micronesia,FSM,Pacific,9.516667,138.133333,25,17,1993.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1473,KAPINGAMARANGI,Micronesia,FSM,Pacific,1.1,154.783333,18,13,1993.0,2017.0,,False,False,
+1925,POHNPEI C,Micronesia,FSM,Pacific,6.980528,158.200222,18,12,2002.0,2022.0,,False,False,
+1370,POHNPEI-B,Micronesia,FSM,Pacific,6.983333,158.233333,12,10,1993.0,2004.0,,False,False,
+528,"CHUUK,  MOEN ISLAND",Micronesia,FSM,Pacific,7.446667,151.846667,1,0,1994.0,1994.0,,False,False,
+1844,NAURU-B,Nauru,NRU,Pacific,-0.529417,166.910056,23,15,1996.0,2022.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1374,NAURU,Nauru,NRU,Pacific,-0.533333,166.9,1,0,1994.0,1994.0,,False,False,
+1252,MALAKAL-B,Palau,PLW,Pacific,7.333333,134.466667,31,19,1993.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1860,LOMBRUM,Papua New Guinea,PNG,Pacific,-2.042083,147.373778,23,16,1997.0,2023.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1164,RABAUL,Papua New Guinea,PNG,Pacific,-4.2,152.183333,5,3,1993.0,1997.0,,False,False,
+1608,KAVIENG,Papua New Guinea,PNG,Pacific,-2.583333,150.8,5,3,1993.0,1997.0,,False,False,
+1303,LAE,Papua New Guinea,PNG,Pacific,-6.75,147.0,3,1,1993.0,1997.0,,False,False,
+1607,ALOTAU,Papua New Guinea,PNG,Pacific,-10.316667,150.45,2,0,1993.0,1994.0,,False,False,
+1610,PORT MORESBY II,Papua New Guinea,PNG,Pacific,-9.483333,147.133333,2,0,1993.0,1994.0,,False,False,
+1254,MADANG,Papua New Guinea,PNG,Pacific,-5.216667,145.8,1,1,1995.0,1995.0,,False,False,
+1609,MANUS ISLAND,Papua New Guinea,PNG,Pacific,-2.016667,147.266667,1,0,1994.0,1994.0,,False,False,
+439,PORT MORESBY,Papua New Guinea,PNG,Pacific,-9.483333,147.133333,0,0,,,,False,False,
+1304,WEWAK,Papua New Guinea,PNG,Pacific,-3.55,143.633333,0,0,,,,False,False,
+1840,APIA B,Samoa,WSM,Pacific,-13.826778,-171.761306,29,18,1994.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1861,HONIARA-B,Solomon Islands,SLB,Pacific,-9.428917,159.955361,26,19,1995.0,2023.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1373,HONIARA II,Solomon Islands,SLB,Pacific,-9.433333,159.95,2,0,1993.0,1994.0,,False,False,
+1842,NUKU'ALOFA B,Tonga,TON,Pacific,-21.136806,-175.180694,31,19,1993.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1839,FUNAFUTI B,Tuvalu,TUV,Pacific,-8.502472,179.195167,27,19,1994.0,2022.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1452,FUNAFUTI,Tuvalu,TUV,Pacific,-8.533333,179.216667,7,5,1993.0,1999.0,,False,False,
+1841,PORT VILA B,Vanuatu,VUT,Pacific,-17.755333,168.307694,31,20,1994.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1494,MINA SULMAN,Bahrain,BHR,Persian Gulf,26.233333,50.6,4,2,1993.0,2004.0,,False,False,
+1746,TANJONG PAGAR,Singapore,SGP,Singapore Strait,1.266667,103.85,31,19,1993.0,2024.0,,True,True,most valid annual values in 1993-2024 among qualifying stations in the country
+1351,RAFFLES LIGHT HOUSE,Singapore,SGP,Singapore Strait,1.166667,103.75,29,19,1993.0,2022.0,,True,False,
+724,SEMBAWANG,Singapore,SGP,Singapore Strait,1.466667,103.833333,28,18,1993.0,2022.0,,True,False,
+1248,SULTAN SHOAL,Singapore,SGP,Singapore Strait,1.233333,103.65,26,16,1993.0,2022.0,,True,False,
+1895,WEST COAST,Singapore,SGP,Singapore Strait,1.3,103.766667,25,17,1998.0,2022.0,,True,False,
+1896,WEST TUAS,Singapore,SGP,Singapore Strait,1.344427,103.633982,23,16,1997.0,2022.0,,True,False,
+1894,TUAS (WEST JURONG),Singapore,SGP,Singapore Strait,1.283333,103.666667,16,16,1997.0,2012.0,,False,False,
+2032,BUKOM,Singapore,SGP,Singapore Strait,1.225643,103.778463,15,7,2008.0,2022.0,,False,False,
+2033,TANJONG CHANGI,Singapore,SGP,Singapore Strait,1.390267,103.998933,15,7,2008.0,2022.0,,False,False,
+2034,TANAH MERAH,Singapore,SGP,Singapore Strait,1.312327,103.988353,15,7,2008.0,2022.0,,False,False,
+2068,UBIN,Singapore,SGP,Singapore Strait,1.419428,103.927775,12,6,2009.0,2022.0,,False,False,
+1275,JURONG,Singapore,SGP,Singapore Strait,1.3,103.716667,4,2,1993.0,1996.0,,False,False,
+1183,VICTORIA DOCK,Singapore,SGP,Singapore Strait,1.266667,103.85,0,0,,,,False,False,
+1534,KEPPEL HARBOUR,Singapore,SGP,Singapore Strait,1.266667,103.816667,0,0,,,,False,False,

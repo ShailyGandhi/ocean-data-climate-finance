@@ -1,0 +1,2 @@
+station,rsl_period,valid_years,rsl_trend_mm_yr,rsl_trend_se,global_trend_same_years_mm_yr,flag_H,flag_H_significant
+Gan II (PSMSL 1707),1993-2024,32,3.527,0.476,3.103,True,False
