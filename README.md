@@ -115,5 +115,5 @@ Source data:
 
 - Code: MIT License (`LICENSE`).
 - Derived data, figures and documentation produced by this package: Creative Commons Attribution 4.0 International (CC BY 4.0).
-- Source data (not included; downloaded from the providers): their providers' terms (see Data sources).
+- Source data ( downloaded from the providers).
 
