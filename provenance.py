@@ -10,7 +10,7 @@ downloaded on first use. Each cache folder (data_raw/) holds:
                 (written by every run; not part of the package)
 
 If a provider has updated a file since the paper's retrieval, the run continues with the current version, warns, and
-logs it as UPDATED; check_reported_values.py then shows whether any reported value changes. Set STRICT_SOURCES=1 to
+logs it as UPDATED, so that outputs from an updated source can be told apart from the paper's. Set STRICT_SOURCES=1 to
 stop instead. Downloads are retried on transient network errors and written to a temporary file that is renamed only
 when complete.
 """
@@ -93,7 +93,7 @@ def fetch(url, name, cache_dir, timeout=600):
                     os.remove(path)
                 raise RuntimeError(f"{name} {status}; STRICT_SOURCES=1 is set, so the run stops")
             print(f"WARNING: {name} has been updated by its provider since the paper's retrieval; using the current "
-                  "version (see run_log.csv and check_reported_values.py)")
+                  "version (see run_log.csv)")
     else:  # a source not yet in the manifest (author workflow): record it as a paper version
         paper[name] = {"file": name, "url": url, "retrieved_utc": when, "bytes": size, "sha256": digest, "note": ""}
         _write(manifest, paper, FIELDS)

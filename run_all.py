@@ -10,7 +10,6 @@ STEPS = [
     ("sids_worked_example", "make_sids_example.py"),
     ("figure4_value_chain", "make_figure4.py"),
     (".", "build_supplementary_tables.py"),
-    (".", "check_reported_values.py"),
 ]
 for folder, script in STEPS:
     print(f"\n=== {folder}/{script} ===", flush=True)

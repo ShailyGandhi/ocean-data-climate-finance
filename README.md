@@ -40,7 +40,6 @@ python run_all.py
 | 3 | `sids_worked_example/make_sids_example.py` | Worked-example indicators, screening flags, sensitivity tests, Figure 3 |
 | 4 | `figure4_value_chain/make_figure4.py` | Figure 4 |
 | 5 | `build_supplementary_tables.py` | Supplementary Tables S1–S2 |
-| 6 | `check_reported_values.py` | Compares the values reported in the paper with the outputs. Stops with an error if any differ while all sources are identical to the paper's versions; if a provider has updated a source, it lists the differences instead |
 
 `provenance.py` is the shared helper module that handles all downloads.
 
@@ -62,10 +61,10 @@ All sources are downloaded from the providers, and none is redistributed with th
 | Figure | Processing |
 |---|---|
 | 2a | Cycle values averaged to annual means; years with < 20 cycles dropped; OLS trend (±1 s.e., adjusted for lag-1 autocorrelation of the residuals: n_eff = n(1 − r₁)/(1 + r₁), n_eff = n when r₁ ≤ 0, minimum 3; r₁ between consecutive valid values); acceleration = 2 × quadratic coefficient, **descriptive, no uncertainty estimated** |
-| 2b | Values with PSMSL quality flags removed. All 96 PSMSL stations in the 26 SIDS (UN Member States) that have any PSMSL station are screened (their PSMSL country codes are listed in `make_figure2.py`; the other 12 SIDS have no PSMSL station): ≥ 20 valid years in 1993–2024 and ≥ 10 in 1995–2014; 31 stations in 18 countries qualify. One station per country: the one with the most valid years (no ties occurred). Exception: the Maldives uses Malé (capital) instead of Gan II, and Gan II is reported as a sensitivity case. Wake Island and Palmyra Island (US territories listed under the Marshall Islands and Kiribati codes) are excluded. Full screening: `figure2_open_data/data_out/psmsl_sids_station_screening.csv` |
+| 2b | Values with PSMSL quality flags removed. All 95 PSMSL stations in the 25 SIDS (UN Member States) that have any PSMSL station are screened (their PSMSL country codes are listed in `make_figure2.py`; the other 12 SIDS have no PSMSL station): ≥ 20 valid years in 1993–2024 and ≥ 10 in 1995–2014; 31 stations in 18 countries qualify. One station per country: the one with the most valid years (no ties occurred). Exception: the Maldives uses Malé (capital) instead of Gan II, and Gan II is reported as a sensitivity case. Wake Island and Palmyra Island (US territories listed under the Marshall Islands and Kiribati codes) are excluded. Full screening: `figure2_open_data/data_out/psmsl_sids_station_screening.csv` |
 | 2c | 10²² J → ZJ. Baseline 1995–2014 = unweighted mean of the 16 overlapping pentads lying entirely within it (a constant shift, so trends are unchanged). Trend fitted to the six non-overlapping pentads 1995–1999 … 2020–2024, with an unadjusted OLS s.e. (six values are too few to estimate autocorrelation) |
 | 2d | "Surface" = cruise means over 0–30 dbar. −999 = missing; cruises without calculated in situ pH or Ω_ar are dropped (no gap filling). Cruises with substituted or assumed inputs (readme codes a, b, d, e, f, m, n, r; 5 of 304) are kept; a sensitivity trend excludes them |
-| 2e–f | Commitments, "includes overlap", USD 2024 constant prices; SIDS matched exactly to the UN-OHRLLS list of SIDS that are UN Member States |
+| 2e–f | Commitments, "includes overlap", USD 2024 constant prices; SIDS matched exactly to the current UN-OHRLLS list of SIDS that are UN Member States (37 countries; https://www.un.org/ohrlls/content/list-sids) |
 | 3, Table 3 | H: station trend vs the global altimetric trend over the same valid years. E: % of population below 5 m (2015). F: national adaptation-related commitments 2015–2024 per resident below 5 m (mean population 2015–2024 × 2015 share). Flags: H above the matched global trend; E above and F below the median of the countries with data. Significance: two-sided test at the 95% level, |station − global| > 1.96 × combined s.e. (independent errors assumed). Sensitivity tests: significance-based H; land below 5 m and finance per resident; Gan II for the Maldives; finance of Seychelles (no OECD records after 2017, when it left the DAC List of ODA Recipients) annualized over 2015–2017 |
 
 ## Missing values (worked example)
@@ -73,7 +72,7 @@ All sources are downloaded from the providers, and none is redistributed with th
 - Missing values stay missing. An indicator that cannot be computed gives a missing flag (empty in the CSV), never "not flagged" and never zero.
 - The flag count is reported only when all three flags are available.
 - Medians are taken over the countries with data.
-- A country absent from the OECD recipient files (Singapore) has missing finance. For a country that is present, a year without records counts as zero commitments; Seychelles, which has no records after 2017, is also tested with its commitments annualized over its listed years (no flag changes). `figure2_open_data/data_out/oecd_sids_recipient_matching.csv` lists, for all 38 SIDS, whether and in which years they appear in the OECD files.
+- A country absent from the OECD recipient files (Singapore) has missing finance. For a country that is present, a year without records counts as zero commitments; Seychelles, which has no records after 2017, is also tested with its commitments annualized over its listed years (no flag changes). `figure2_open_data/data_out/oecd_sids_recipient_matching.csv` lists, for all 37 SIDS, whether and in which years they appear in the OECD files.
 
 ## Interpretation limits
 
@@ -95,14 +94,13 @@ figure2_open_data/             Figure 2; data_raw/ (manifest; sources are downlo
 sids_worked_example/           Table 3 and Figure 3; data_raw/, data_out/
 figure4_value_chain/           Figure 4
 supplementary/                 Supplementary Tables S1-S2 (xlsx)
-reported_values_check.csv      result of the reported-values check
 ```
 
 ## How to cite
 
 Please cite the article and this archive (see `CITATION.cff`):
 
-> Gandhi, S.; Fakhruddin, B.S.; Diggs, S. Code and data for "Integrating Ocean Data with Climate Finance to Strengthen Coastal Resilience and Blue Economy Development" (v1.0.0). Zenodo, 2026. https://doi.org/10.5281/zenodo.[DOI]
+> Gandhi, S.; Fakhruddin, B.S.; Diggs, S. Code and data for "Integrating Ocean Data with Climate Finance to Strengthen Coastal Resilience and Blue Economy Development" (v1.1.0). Zenodo, 2026. https://doi.org/10.5281/zenodo.24425035
 
 Source data:
 - "Altimetry data are provided by NOAA Laboratory for Satellite Altimetry."

@@ -96,14 +96,14 @@ for name in alt.columns:
 PSMSL_ZIP = "https://psmsl.org/data/obtaining/rlr.annual.data/rlr_annual.zip"
 # PSMSL country codes (filelist.txt) of SIDS that are UN Member States -> (country, ISO3, region).
 # Covers every SIDS on the UN-OHRLLS list (UN Member States) that has at least one PSMSL RLR station, identified from
-# station names and coordinates in filelist.txt (26 countries). The other 12 SIDS (e.g., Barbados, Belize, Guyana,
+# station names and coordinates in filelist.txt (25 countries). The other 12 SIDS (e.g., Barbados, Belize, Guyana,
 # Suriname, Comoros, Timor-Leste) have no PSMSL RLR station. Every station of these codes is screened below and listed in
 # psmsl_sids_station_screening.csv. Codes 730/750/770 are the Gilbert, Phoenix and Line Islands of Kiribati.
 SIDS_PSMSL = {
     "890": ("Trinidad and Tobago", "TTO", "Atlantic/Caribbean"), "893": ("Grenada", "GRD", "Atlantic/Caribbean"),
     "913": ("Dominica", "DMA", "Atlantic/Caribbean"), "932": ("Jamaica", "JAM", "Atlantic/Caribbean"),
     "934": ("Haiti", "HTI", "Atlantic/Caribbean"), "936": ("Dominican Republic", "DOM", "Atlantic/Caribbean"),
-    "941": ("Bahamas", "BHS", "Atlantic/Caribbean"), "482": ("Bahrain", "BHR", "Persian Gulf"),
+    "941": ("Bahamas", "BHS", "Atlantic/Caribbean"),
     "742": ("Fiji", "FJI", "Pacific"), "732": ("Tuvalu", "TUV", "Pacific"), "741": ("Vanuatu", "VUT", "Pacific"),
     "670": ("Papua New Guinea", "PNG", "Pacific"), "710": ("Micronesia", "FSM", "Pacific"),
     "711": ("Palau", "PLW", "Pacific"), "715": ("Nauru", "NRU", "Pacific"),
@@ -292,13 +292,15 @@ REGION_GROUP = {
     "Oceania": "Oceania", "Europe": "Europe",
     "Developing countries unspecified": "Unallocated / multi-region",
 }
-# UN-OHRLLS list of Small Island Developing States that are UN Member States
+# UN-OHRLLS list of Small Island Developing States that are UN Member States (37 countries; current list at
+# https://www.un.org/ohrlls/content/list-sids, which no longer includes Bahrain; Cook Islands and Niue are SIDS but
+# not UN Member States)
 SIDS = ["Antigua and Barbuda", "Bahamas", "Barbados", "Belize", "Cabo Verde", "Comoros", "Cuba", "Dominica",
         "Dominican Republic", "Fiji", "Grenada", "Guinea-Bissau", "Guyana", "Haiti", "Jamaica", "Kiribati",
         "Maldives", "Marshall Islands", "Micronesia", "Mauritius", "Nauru", "Palau", "Papua New Guinea", "Samoa",
         "Sao Tome and Principe", "Singapore", "Seychelles", "Solomon Islands", "Saint Kitts and Nevis",
         "Saint Lucia", "Saint Vincent and the Grenadines", "Suriname", "Timor-Leste", "Tonga",
-        "Trinidad and Tobago", "Tuvalu", "Vanuatu", "Bahrain"]
+        "Trinidad and Tobago", "Tuvalu", "Vanuatu"]
 
 
 def norm(s):
