@@ -1,0 +1,16 @@
+# Source data are not redistributed: every source is openly available and is downloaded on first run.
+# Only the manifests (versions used for the paper: URL, retrieval date, SHA-256) are part of the repository.
+**/data_raw/*
+!**/data_raw/manifest.csv
+*.part
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+~$*
