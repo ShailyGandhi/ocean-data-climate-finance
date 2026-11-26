@@ -100,7 +100,12 @@ supplementary/                 Supplementary Tables S1-S2 (xlsx)
 
 Please cite the article and this archive (see `CITATION.cff`):
 
-> Gandhi, S.; Fakhruddin, B.S.; Diggs, S. Code and data for "Integrating Ocean Data with Climate Finance to Strengthen Coastal Resilience and Blue Economy Development" (v1.1.0). Zenodo, 2026. https://doi.org/10.5281/zenodo.24425035
+> Gandhi, S.; Fakhruddin, B.S.; Diggs, S. Code and data for "Integrating Ocean Data with Climate Finance to Strengthen Coastal Resilience and Blue Economy Development". Zenodo, 2026. https://doi.org/10.5281/zenodo.24425036
+
+## Changes
+
+- **26 November 2026 (third revision of the article)** – SIDS classification updated to the current UN-OHRLLS list (37 UN Member States; Bahrain removed). Effect: 37 instead of 38 SIDS in the OECD matching (32 recipients, 5 absent instead of 6); 95 PSMSL stations in 25 SIDS screened instead of 96 in 26 (Bahrain's only station, Mina Sulman, PSMSL 1494, had 4 valid years and did not qualify). All finance totals, SIDS shares, the 18 selected tide gauges, Table 3, Figures 1–4 and Supplementary Tables S1–S2 are unchanged (source data versions identical). `provenance.py` is included in the archive.
+- **21 November 2026** – package submitted with the second revision of the article.
 
 Source data:
 - "Altimetry data are provided by NOAA Laboratory for Satellite Altimetry."
